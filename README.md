@@ -1,13 +1,14 @@
-# Housing Market Analysis of San Francisco
+# Alpha Dot Housing Market Analysis
 
-This analysis is based on information like number of housing units, sale price per sqaure foot and gross rent for the San Francisco rental housing market to determine the capability for one-click, buy-and-rent strategy.
+
 
 
 ---
 
 ## Technologies
 
-It supports Python 3.7 and above and has been constructed in the jupyter lab notebook named ```san_francisco_housing.ipynb```
+It supports Python 3.7 and above and has been constructed in the jupyter lab notebook named ```alphadot.ipynb```
+
 Additionally, the following packages/libraries are used to run the analysis:
 
 - [pandas](https://pypi.org/project/pandas/) - for analyzing data
@@ -23,32 +24,13 @@ Additionally, the following packages/libraries are used to run the analysis:
 Before running the application first install the following dependencies:
 
 ```python
-  pip install pandas
-  pip install jupyterlab 
-  pip install numpy
-  pip install hvplot
-  pip install pyviz
-  pip install geoviews
+  
 
 ```
 ---
 
 ## Usage
 
-The plots and charts prepared cannot be viewed from GitHub. To view the analysis, clone the repository using "git clone <link>" and then navigate to the file named ```san_francisco_housing.ipynb``` notebook in the [repository directory](https://github.com/Summi-Khanna/Challenge-6).
-
-For better understanding of the analysis, snapshots of the plots are proivided below:
-
-![Housing Units](Images/Housing_units.png)  
-
-
-![Sale Price per Sqft & Gross Rent](Images/Housing_price.png)  
-
-
-![Sale Price per Sqft & Gross Rent Grouped by Neighborhood](Images/Neighborhood.png)  
-
-
-![Neighborhoods by Sale Price per Square Foot and Gross Rent by map](Images/Map.png)  
 
 
 ---
@@ -58,6 +40,9 @@ For better understanding of the analysis, snapshots of the plots are proivided b
 Summi Khanna  
 Email : sam.summo2812@gmail.com  
 LinkedIn : https://www.linkedin.com/in/summi-khanna-004a60187/
+
+Rachael Donham
+Email: rachaeldonham@gmail.com
 
 ---
 
