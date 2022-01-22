@@ -44,6 +44,10 @@ LinkedIn : https://www.linkedin.com/in/summi-khanna-004a60187/
 Rachael Donham
 Email: rachaeldonham@gmail.com
 
+Rupika Ranjan Babu
+Email : rupika10@gmail.com
+LinkedIn : linkedin.com/in/rupika-r-125616a8
+
 ---
 
 ## License
