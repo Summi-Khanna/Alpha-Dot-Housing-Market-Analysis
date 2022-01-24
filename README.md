@@ -52,6 +52,8 @@ Team Members:
   LinkedIn : linkedin.com/in/rupika-r-125616a8
 
 - Nomi
+  Email : nomienk28@gmail.com
+  LinkedIn : 
 
 ---
 
