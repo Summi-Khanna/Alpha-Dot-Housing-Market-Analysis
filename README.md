@@ -47,13 +47,15 @@ Team Members:
   Email : sam.summo2812@gmail.com  
   LinkedIn : https://www.linkedin.com/in/summi-khanna-004a60187/
 
-- Rupika Ranjan Babu
-  Email : rupika10@gmail.com
-  LinkedIn : linkedin.com/in/rupika-r-125616a8
+- Rupika Ranjan Babu  
+  Email : rupika10@gmail.com  
+  LinkedIn : https://www.linkedin.com/in/rupika-r-125616a8/
 
-- Nomi
-  Email : nomienk28@gmail.com
+- Nomi  
+  Email : nomienk28@gmail.com  
   LinkedIn : 
+
+
 
 ---
 
