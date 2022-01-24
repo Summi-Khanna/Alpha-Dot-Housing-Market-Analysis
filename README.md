@@ -37,16 +37,21 @@ Before running the application first install the following dependencies:
 
 ## Contributors
  
-Summi Khanna  
-Email : sam.summo2812@gmail.com  
-LinkedIn : https://www.linkedin.com/in/summi-khanna-004a60187/
+Team Leader:
+- Rachael Donham
+  Email : rachaeldonham@gmail.com
 
-Rachael Donham
-Email: rachaeldonham@gmail.com
+Team Members:
 
-Rupika Ranjan Babu
-Email : rupika10@gmail.com
-LinkedIn : linkedin.com/in/rupika-r-125616a8
+- Summi Khanna  
+  Email : sam.summo2812@gmail.com  
+  LinkedIn : https://www.linkedin.com/in/summi-khanna-004a60187/
+
+- Rupika Ranjan Babu
+  Email : rupika10@gmail.com
+  LinkedIn : linkedin.com/in/rupika-r-125616a8
+
+- Nomi
 
 ---
 
