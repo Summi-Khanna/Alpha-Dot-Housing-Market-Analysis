@@ -38,8 +38,9 @@ Before running the application first install the following dependencies:
 ## Contributors
  
 Team Leader:
-- Rachael Donham
+- Rachael Donham  
   Email : rachaeldonham@gmail.com
+
 
 Team Members:
 
