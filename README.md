@@ -1,13 +1,15 @@
 # Alpha Dot Housing Market Analysis
 
+An analysis drawn focusing on variable like Listing prices, Rental prices, Supply of housing inventory, Affordability index, etc. to understand the overall housing market of Washington along with gathering enough information to answer the below query of an investor:
 
+```An investor is interested in purchasing single family residential unit and intend to rent it out. The Investor wants to know whether it is recommendable, if so, what can be expected returns and in which county he should invest?```
 
 
 ---
 
 ## Technologies
 
-It supports Python 3.7 and above and has been constructed in the jupyter lab notebook named ```alphadot.ipynb```
+It supports Python 3.7 and above and has been constructed in the jupyter lab notebook named ```Housing_Market_Analysis.ipynb```
 
 Additionally, the following packages/libraries are used to run the analysis:
 
@@ -23,7 +25,13 @@ Additionally, the following packages/libraries are used to run the analysis:
 
 Before running the application first install the following dependencies:
 
-```python
+```
+  pip install pandas
+  pip install jupyterlab 
+  pip install numpy
+  pip install hvplot
+  pip install pyviz
+  pip install geoviews
   
 
 ```
@@ -31,7 +39,7 @@ Before running the application first install the following dependencies:
 
 ## Usage
 
-
+To view the analysis, navigate to the file named ```Housing_Market_Analysis.ipynb``` notebook in the [Alpha Dot repository directory](https://github.com/Summi-Khanna/Alpha-Dot-Housing-Market-Analysis) Or you can navigate to the live version in the jupyter lab directly opening from your terminal using the clone link in terminal.
 
 ---
 
@@ -40,7 +48,7 @@ Before running the application first install the following dependencies:
 Team Leader:
 - Rachael Donham  
   Email : rachaeldonham@gmail.com
-
+  LinkedIn : https://www.linkedin.com/in/rachaeldonham/
 
 Team Members:
 
@@ -54,7 +62,7 @@ Team Members:
 
 - Nomi  
   Email : nomienk28@gmail.com  
-  LinkedIn : 
+  LinkedIn : https://www.linkedin.com/in/nomin-enkhbold-2199191a8/
 
 
 
