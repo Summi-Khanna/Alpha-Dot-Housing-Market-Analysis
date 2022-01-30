@@ -59,6 +59,9 @@ def transform_rental_dataframe(rental_dataframe):
         result_df.at[index, 'Average_Rental_Price'] = rental_dataframe.loc[FIPS_Code,date_col]
         
     result_df['Date'] = pd.to_datetime(result_df['Date'], format='%Y_%m')
+    # result_df = result_df.fillna(0)
+    result_df = result_df.dropna()
+    result_df['Average_Rental_Price'] =result_df['Average_Rental_Price'].astype("float")
     return result_df
 
 def transform_building_dataframe(building_df , df_column_type):

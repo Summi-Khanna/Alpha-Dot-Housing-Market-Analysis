@@ -87,3 +87,7 @@ def read_monthly_housing_permits_data():
         
     wa_housing_units_data = clean_monthly_housing_permits_data(main_df)
     return wa_housing_units_data
+
+def read_geo_codes():
+    geocode_df = pd.read_csv("Resources/wa_county_geocodes.csv")
+    return geocode_df
