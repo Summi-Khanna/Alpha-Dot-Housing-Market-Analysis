@@ -21,6 +21,7 @@ To answer this question, Alpha Dot constructed an estimate of monthly SFR return
  - Construction Survey data from the U.S. Census Bureau
  - Housing market data from Realtor.com
  - Rental market data from ApartmentListing.com
+ - City Affordability Index from the U.S. Census Bureau
  - Employment and Labor Force data from the Bureau of Labor Statistics
  - Geocoding data from OpenDataSource
 
@@ -62,7 +63,6 @@ Before running the application first install the following dependencies:
   pip install pyviz
   pip install geoviews
   pip install seaborn
-  
 
 ```
 ---
@@ -70,6 +70,8 @@ Before running the application first install the following dependencies:
 ## Usage
 
 To view the analysis, navigate to the file named ```Housing_Market_Analysis.ipynb``` notebook in the [Alpha Dot repository directory](https://github.com/Summi-Khanna/Alpha-Dot-Housing-Market-Analysis) Or you can navigate to the live version in the jupyter lab directly opening from your terminal using the clone link in terminal.
+
+For better understanding, a small [presentation file has been attached here](https://drive.google.com/file/d/1eyWH3LByyr7QWapSkPS0A64Q1MSmQ7Be/view?usp=sharing) which presents the overall picture of this project.
 
 ---
 
