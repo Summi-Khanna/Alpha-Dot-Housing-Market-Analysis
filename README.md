@@ -1,9 +1,37 @@
 # Alpha Dot Housing Market Analysis
 
-An analysis drawn focusing on variable like Listing prices, Rental prices, Supply of housing inventory, Affordability index, etc. to understand the overall housing market of Washington along with gathering enough information to answer the below query of an investor:
+There are roughly 12 million Single-Family Rentals (SFRs) in the United States. They represent more than one-third of all rented housing and have an aggregate market value of approximately `$`4.5 trillion dollars. Until recently, these assets were predominantly owned by individuals or small investors. In the last decade, however, SFRs have emerged as a important asset class for Real Estate Investment Trusts (REITs). They are now attracting attention (and dollars) from large and institutional investors. Most SFR REITS are focused on a handful of primary markets in the American sunbelt (the Southeast and the Southwest), missing out on opportunities for potentially higher returns in more supply-constrained secondary markets in the North, Midwest, and West Coast. With this project, Alpha Dot is developing tools to systematically analyze residential markets across the country to support smart SFR portfolio design for performance and risk mitigation. 
 
-```An investor is interested in purchasing single family residential unit and intend to rent it out. The Investor wants to know whether it is recommendable, if so, what can be expected returns and in which county he should invest?```
+Alpha Dot has assembled data on housing supply, demand, and returns from private sector and government sources to spot trends and inflection points in residential markets across the country. This Minimum Viable Product (MVP) is a proof of concept demonstrating that data are available with broad enough coverage, at a granular enough geographic levels, and a periodicity with high enough frequency to use for timely nationwide automated analysis. This notebook demonstrates the following types of visualizations for data exploration:<br>
 
+ - Interactive line and bar charts for time series analysis
+ - Maps for spatial analysis
+ - A correlogram to explore relationship between variables
+
+This project uses an analysis of recent trends in the Washington state housing market to demonstrate the application of these tools to the investment research use case. Alpha Dot's analysis focuses on the impacts of the recent demand shock to urban housing markets in Washington state as the pandemic-induced micro depression of 2020 caused a sharp drop in employment, household formation and rents. In most counties and cities, house prices plateaued in 2020. Both home prices and rents, however, climibed rapidly in 2021 during the surge of migration that followed. Generally, suburbs and rural areas saw more rapidly rising house prices and rent than urban centers, as new opportunities to work from home allowed workers to move to more affordable areas.
+
+Utlimately, the goal of this project is to answer the question below.
+
+```An investor is interested adding one or more Washington houses to a SFR portfolio. The investor wants to know whether it is recommendable, and if so, what returns can be expected and in which county he or she should invest?```
+
+To answer this question, Alpha Dot contructed an estimate of monthly SFR returns by county. Total returns to SFR assets have two components: rental yields and house-price appreciation. We estimated monthly gross rental yield by dividing average house listing price by average rent. We estimates monthly price appreciation gains with the month-to-month percent change in median listing price per square foot. These two series are added together to calculate total yield. Then we multiply the total return by 12 to annualize it. 
+
+## Data Sources
+
+ - Construction Survey data from the U.S. Census Bureau
+ - Housing market data from Realtor.com
+ - Rental market data from ApartmentListing.com
+ - Employment and Labor Force data from the Bureau of Labor Statistics
+ - Geocoding data from OpenDataSource
+
+
+# Future Scope
+
+ - Create the SFR returns index for US Counties
+ - Create the SFR returns index for US Cities
+ - Develop Risk Measures
+ - Develop Supply and Demand indices
+ - Create an interactive dashboard for SFR investors
 
 ---
 
@@ -17,6 +45,7 @@ Additionally, the following packages/libraries are used to run the analysis:
 - [numpy](https://pypi.org/project/numpy/) - for numerical operations
 - [pyviz](https://pypi.org/project/pyviz/) - for visualizing data
 - [geoviews](https://pypi.org/project/geoviews/) - for visualizing geospatial data
+- [seaborn](https://github.com/mwaskom/seaborn/) - for visualizing correlation between variables
 
 
 ---
@@ -32,6 +61,7 @@ Before running the application first install the following dependencies:
   pip install hvplot
   pip install pyviz
   pip install geoviews
+  pip install seaborn
   
 
 ```
@@ -46,25 +76,23 @@ To view the analysis, navigate to the file named ```Housing_Market_Analysis.ipyn
 ## Contributors
  
 Team Leader:
-- Rachael Donham  
-  Email : rachaeldonham@gmail.com
-  LinkedIn : https://www.linkedin.com/in/rachaeldonham/
+- Rachael Donham 
+  Email : rachaeldonham@gmail.com <br>
+  LinkedIn : [https://www.linkedin.com/in/rachaeldonham/](https://www.linkedin.com/in/rachaeldonham/)
 
 Team Members:
 
 - Summi Khanna  
-  Email : sam.summo2812@gmail.com  
-  LinkedIn : https://www.linkedin.com/in/summi-khanna-004a60187/
+  Email : sam.summo2812@gmail.com <br>
+  LinkedIn : [https://www.linkedin.com/in/summi-khanna-004a60187/](https://www.linkedin.com/in/summi-khanna-004a60187/)
 
 - Rupika Ranjan Babu  
-  Email : rupika10@gmail.com  
-  LinkedIn : https://www.linkedin.com/in/rupika-r-125616a8/
+  Email : rupika10@gmail.com <br> 
+  LinkedIn : [https://www.linkedin.com/in/rupika-r-125616a8/](https://www.linkedin.com/in/rupika-r-125616a8/)
 
-- Nomi  
-  Email : nomienk28@gmail.com  
-  LinkedIn : https://www.linkedin.com/in/nomin-enkhbold-2199191a8/
-
-
+- Nomi Enkhbold
+  Email : nomienk28@gmail.com <br> 
+  LinkedIn : [https://www.linkedin.com/in/nomin-enkhbold-2199191a8/](https://www.linkedin.com/in/nomin-enkhbold-2199191a8/)
 
 ---
 
@@ -72,7 +100,7 @@ Team Members:
 
 MIT License
 
-Copyright (c) 2021 Summi Khanna
+Copyright (c) 2022 Rachael Donham, Summi Khanna, Rupika Rajan Babu, Nomi Enkhbold
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
