@@ -89,6 +89,7 @@ def transform_labor_emp_dataframe(data_df ,df_type ):
     data_df = data_df.stack()
     data_df = pd.DataFrame(data_df.reset_index())
     data_df.columns = ['Date','FIPS_CODE',df_type+'_NO.']
+    data_df['FIPS_CODE'] = data_df['FIPS_CODE'].astype('int64')
     return data_df
 
 def clean_monthly_housing_permits_data(housing_units_df):
