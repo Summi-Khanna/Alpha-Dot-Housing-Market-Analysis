@@ -24,6 +24,10 @@ To answer this question, Alpha Dot constructed an estimate of monthly SFR return
  - City Affordability Index from the U.S. Census Bureau
  - Employment and Labor Force data from the Bureau of Labor Statistics
  - Geocoding data from OpenDataSource
+ 
+There is a seperate Notebook file named `loadbls.ipynb` which uses BLS API to get labor and employment and loads the data in a csv file for later use in analysis.
+
+We used **seaborn library** to create Correlogram that shows relationship between key attributes from each data frames which in proxy represents supply demand and result in housing market analysis.
 
 
 # Future Scope
@@ -44,7 +48,6 @@ Additionally, the following packages/libraries are used to run the analysis:
 
 - [pandas](https://pypi.org/project/pandas/) - for analyzing data
 - [numpy](https://pypi.org/project/numpy/) - for numerical operations
-- [pyviz](https://pypi.org/project/pyviz/) - for visualizing data
 - [geoviews](https://pypi.org/project/geoviews/) - for visualizing geospatial data
 - [seaborn](https://github.com/mwaskom/seaborn/) - for visualizing correlation between variables
 
@@ -60,7 +63,6 @@ Before running the application first install the following dependencies:
   pip install jupyterlab 
   pip install numpy
   pip install hvplot
-  pip install pyviz
   pip install geoviews
   pip install seaborn
 
